@@ -14,8 +14,8 @@
     self = [super init];
     if (self) {
         self.title = string;
-        CGFloat width = [string caculateLabelSizeWithFont:ULFont(13) maxSize:CGSizeMake(ULMainScreenWidth-12*2, 28)].width;
-        self.width = width + 24;//文字左右间隙
+//        CGFloat width = [string caculateLabelSizeWithFont:ULFont(13) maxSize:CGSizeMake(ULMainScreenWidth-12*2, 28)].width;
+//        self.width = width + 24;//文字左右间隙
         self.height = 28;
     }
     return self;

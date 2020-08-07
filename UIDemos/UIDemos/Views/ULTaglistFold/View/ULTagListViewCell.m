@@ -8,6 +8,7 @@
 
 #import "ULTagListViewCell.h"
 #import "ULTagListViewCellRowNode.h"
+#import "UILabel+UL.h"
 
 @interface ULTagListViewCell ()
 

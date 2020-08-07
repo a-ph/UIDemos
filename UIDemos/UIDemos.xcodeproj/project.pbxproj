@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A4A5C4C97ED89DE99285B6A /* Pods_UIDemosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3284A866CDC1315F0487BE28 /* Pods_UIDemosTests.framework */; };
+		50265FF124DD03C80009B08B /* UILabel+UL.m in Sources */ = {isa = PBXBuildFile; fileRef = 50265FF024DD03C80009B08B /* UILabel+UL.m */; };
 		50406DBF24DCFD0C00BBF7C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DBE24DCFD0C00BBF7C2 /* AppDelegate.m */; };
 		50406DC224DCFD0C00BBF7C2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DC124DCFD0C00BBF7C2 /* SceneDelegate.m */; };
 		50406DC524DCFD0C00BBF7C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DC424DCFD0C00BBF7C2 /* ViewController.m */; };
@@ -18,12 +19,6 @@
 		50406DDA24DCFD0F00BBF7C2 /* UIDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DD924DCFD0F00BBF7C2 /* UIDemosTests.m */; };
 		50406DE524DCFD0F00BBF7C2 /* UIDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DE424DCFD0F00BBF7C2 /* UIDemosUITests.m */; };
 		50406E2424DCFD9C00BBF7C2 /* ULViewsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DF324DCFD9B00BBF7C2 /* ULViewsRootViewController.m */; };
-		50406E2524DCFD9C00BBF7C2 /* ULThirdPlatformLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DF724DCFD9B00BBF7C2 /* ULThirdPlatformLoginViewController.m */; };
-		50406E2624DCFD9C00BBF7C2 /* ULThirdLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DF924DCFD9B00BBF7C2 /* ULThirdLoginModel.m */; };
-		50406E2724DCFD9C00BBF7C2 /* ULThirdPlatfromLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406DFD24DCFD9B00BBF7C2 /* ULThirdPlatfromLoginButton.m */; };
-		50406E2824DCFD9C00BBF7C2 /* ULHorizontalLaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406E0024DCFD9B00BBF7C2 /* ULHorizontalLaneView.m */; };
-		50406E2924DCFD9C00BBF7C2 /* ULBaseHorizontalLaneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406E0224DCFD9B00BBF7C2 /* ULBaseHorizontalLaneCell.m */; };
-		50406E2A24DCFD9C00BBF7C2 /* ULThirdPlatformLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406E0524DCFD9B00BBF7C2 /* ULThirdPlatformLoginView.m */; };
 		50406E2B24DCFD9C00BBF7C2 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406E0924DCFD9B00BBF7C2 /* GridViewController.m */; };
 		50406E2C24DCFD9C00BBF7C2 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406E0B24DCFD9B00BBF7C2 /* GridView.m */; };
 		50406E2D24DCFD9C00BBF7C2 /* GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50406E0E24DCFD9B00BBF7C2 /* GridTableViewCell.m */; };
@@ -63,6 +58,8 @@
 		3284A866CDC1315F0487BE28 /* Pods_UIDemosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIDemosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		451F56394892B76800DA808B /* Pods_UIDemos_UIDemosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIDemos_UIDemosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50265FEE24DD01310009B08B /* YFDemosPch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFDemosPch.h; sourceTree = "<group>"; };
+		50265FEF24DD03C80009B08B /* UILabel+UL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+UL.h"; sourceTree = "<group>"; };
+		50265FF024DD03C80009B08B /* UILabel+UL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UL.m"; sourceTree = "<group>"; };
 		50406DBA24DCFD0C00BBF7C2 /* UIDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50406DBD24DCFD0C00BBF7C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50406DBE24DCFD0C00BBF7C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,18 +79,6 @@
 		50406DE424DCFD0F00BBF7C2 /* UIDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDemosUITests.m; sourceTree = "<group>"; };
 		50406DE624DCFD0F00BBF7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50406DF324DCFD9B00BBF7C2 /* ULViewsRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULViewsRootViewController.m; sourceTree = "<group>"; };
-		50406DF624DCFD9B00BBF7C2 /* ULThirdPlatformLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULThirdPlatformLoginViewController.h; sourceTree = "<group>"; };
-		50406DF724DCFD9B00BBF7C2 /* ULThirdPlatformLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULThirdPlatformLoginViewController.m; sourceTree = "<group>"; };
-		50406DF924DCFD9B00BBF7C2 /* ULThirdLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULThirdLoginModel.m; sourceTree = "<group>"; };
-		50406DFA24DCFD9B00BBF7C2 /* ULThirdLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULThirdLoginModel.h; sourceTree = "<group>"; };
-		50406DFD24DCFD9B00BBF7C2 /* ULThirdPlatfromLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULThirdPlatfromLoginButton.m; sourceTree = "<group>"; };
-		50406DFE24DCFD9B00BBF7C2 /* ULThirdPlatformLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULThirdPlatformLoginView.h; sourceTree = "<group>"; };
-		50406E0024DCFD9B00BBF7C2 /* ULHorizontalLaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULHorizontalLaneView.m; sourceTree = "<group>"; };
-		50406E0124DCFD9B00BBF7C2 /* ULBaseHorizontalLaneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULBaseHorizontalLaneCell.h; sourceTree = "<group>"; };
-		50406E0224DCFD9B00BBF7C2 /* ULBaseHorizontalLaneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULBaseHorizontalLaneCell.m; sourceTree = "<group>"; };
-		50406E0324DCFD9B00BBF7C2 /* ULHorizontalLaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULHorizontalLaneView.h; sourceTree = "<group>"; };
-		50406E0424DCFD9B00BBF7C2 /* ULThirdPlatfromLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULThirdPlatfromLoginButton.h; sourceTree = "<group>"; };
-		50406E0524DCFD9B00BBF7C2 /* ULThirdPlatformLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULThirdPlatformLoginView.m; sourceTree = "<group>"; };
 		50406E0824DCFD9B00BBF7C2 /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
 		50406E0924DCFD9B00BBF7C2 /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
 		50406E0B24DCFD9B00BBF7C2 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
@@ -195,6 +180,8 @@
 				50406E3724DCFDF000BBF7C2 /* ULKitTableViewController.m */,
 				50406E3B24DCFE1C00BBF7C2 /* ULRootListModel.h */,
 				50406E3C24DCFE1C00BBF7C2 /* ULRootListModel.m */,
+				50265FEF24DD03C80009B08B /* UILabel+UL.h */,
+				50265FF024DD03C80009B08B /* UILabel+UL.m */,
 				50265FEE24DD01310009B08B /* YFDemosPch.h */,
 				50406DC624DCFD0C00BBF7C2 /* Main.storyboard */,
 				50406DC924DCFD0F00BBF7C2 /* Assets.xcassets */,
@@ -227,72 +214,12 @@
 			isa = PBXGroup;
 			children = (
 				50406DF324DCFD9B00BBF7C2 /* ULViewsRootViewController.m */,
-				50406DF424DCFD9B00BBF7C2 /* ULLogin */,
 				50406E0624DCFD9B00BBF7C2 /* ULGrid */,
 				50406E0F24DCFD9B00BBF7C2 /* ULTaglistFold */,
 				50406E1A24DCFD9B00BBF7C2 /* ULRoll */,
 				50406E2324DCFD9B00BBF7C2 /* ULViewsRootViewController.h */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		50406DF424DCFD9B00BBF7C2 /* ULLogin */ = {
-			isa = PBXGroup;
-			children = (
-				50406DF524DCFD9B00BBF7C2 /* Controller */,
-				50406DF824DCFD9B00BBF7C2 /* Model */,
-				50406DFB24DCFD9B00BBF7C2 /* View */,
-			);
-			path = ULLogin;
-			sourceTree = "<group>";
-		};
-		50406DF524DCFD9B00BBF7C2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				50406DF624DCFD9B00BBF7C2 /* ULThirdPlatformLoginViewController.h */,
-				50406DF724DCFD9B00BBF7C2 /* ULThirdPlatformLoginViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		50406DF824DCFD9B00BBF7C2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				50406DF924DCFD9B00BBF7C2 /* ULThirdLoginModel.m */,
-				50406DFA24DCFD9B00BBF7C2 /* ULThirdLoginModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		50406DFB24DCFD9B00BBF7C2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				50406DFC24DCFD9B00BBF7C2 /* ULThirdPlatformLoginView */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		50406DFC24DCFD9B00BBF7C2 /* ULThirdPlatformLoginView */ = {
-			isa = PBXGroup;
-			children = (
-				50406DFD24DCFD9B00BBF7C2 /* ULThirdPlatfromLoginButton.m */,
-				50406DFE24DCFD9B00BBF7C2 /* ULThirdPlatformLoginView.h */,
-				50406DFF24DCFD9B00BBF7C2 /* ULBaseHorizontalLaneView */,
-				50406E0424DCFD9B00BBF7C2 /* ULThirdPlatfromLoginButton.h */,
-				50406E0524DCFD9B00BBF7C2 /* ULThirdPlatformLoginView.m */,
-			);
-			path = ULThirdPlatformLoginView;
-			sourceTree = "<group>";
-		};
-		50406DFF24DCFD9B00BBF7C2 /* ULBaseHorizontalLaneView */ = {
-			isa = PBXGroup;
-			children = (
-				50406E0024DCFD9B00BBF7C2 /* ULHorizontalLaneView.m */,
-				50406E0124DCFD9B00BBF7C2 /* ULBaseHorizontalLaneCell.h */,
-				50406E0224DCFD9B00BBF7C2 /* ULBaseHorizontalLaneCell.m */,
-				50406E0324DCFD9B00BBF7C2 /* ULHorizontalLaneView.h */,
-			);
-			path = ULBaseHorizontalLaneView;
 			sourceTree = "<group>";
 		};
 		50406E0624DCFD9B00BBF7C2 /* ULGrid */ = {
@@ -645,30 +572,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50406E2524DCFD9C00BBF7C2 /* ULThirdPlatformLoginViewController.m in Sources */,
 				50406E3324DCFD9C00BBF7C2 /* ULRollingViewTableViewCell.m in Sources */,
-				50406E2924DCFD9C00BBF7C2 /* ULBaseHorizontalLaneCell.m in Sources */,
 				50406DC524DCFD0C00BBF7C2 /* ViewController.m in Sources */,
 				50406E3A24DCFDF100BBF7C2 /* ULKitBaseViewController.m in Sources */,
 				50406DBF24DCFD0C00BBF7C2 /* AppDelegate.m in Sources */,
 				50406E2B24DCFD9C00BBF7C2 /* GridViewController.m in Sources */,
-				50406E2824DCFD9C00BBF7C2 /* ULHorizontalLaneView.m in Sources */,
 				50406E2E24DCFD9C00BBF7C2 /* ULTagListFoldViewController.m in Sources */,
 				50406E3424DCFD9C00BBF7C2 /* ULRollView.m in Sources */,
 				50406E2F24DCFD9C00BBF7C2 /* ULTagListViewCellRowNode.m in Sources */,
-				50406E2A24DCFD9C00BBF7C2 /* ULThirdPlatformLoginView.m in Sources */,
+				50265FF124DD03C80009B08B /* UILabel+UL.m in Sources */,
 				50406E3024DCFD9C00BBF7C2 /* ULTagListViewCell.m in Sources */,
 				50406E3124DCFD9C00BBF7C2 /* ULTagListView.m in Sources */,
 				50406E2424DCFD9C00BBF7C2 /* ULViewsRootViewController.m in Sources */,
 				50406E3224DCFD9C00BBF7C2 /* ULRollViewController.m in Sources */,
 				50406E2C24DCFD9C00BBF7C2 /* GridView.m in Sources */,
 				50406DD024DCFD0F00BBF7C2 /* main.m in Sources */,
-				50406E2724DCFD9C00BBF7C2 /* ULThirdPlatfromLoginButton.m in Sources */,
 				50406E2D24DCFD9C00BBF7C2 /* GridTableViewCell.m in Sources */,
 				50406E3924DCFDF100BBF7C2 /* ULKitTableViewController.m in Sources */,
 				50406DC224DCFD0C00BBF7C2 /* SceneDelegate.m in Sources */,
 				50406E3D24DCFE1C00BBF7C2 /* ULRootListModel.m in Sources */,
-				50406E2624DCFD9C00BBF7C2 /* ULThirdLoginModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,7 +762,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/UIDemos/YFDemosPch.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UIDemos/YFDemosPch.h";
 				INFOPLIST_FILE = UIDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -859,7 +781,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/UIDemos/YFDemosPch.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UIDemos/YFDemosPch.h";
 				INFOPLIST_FILE = UIDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

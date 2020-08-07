@@ -9,6 +9,9 @@
 #ifndef YFDemosPch_h
 #define YFDemosPch_h
 
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
 #import <Masonry.h>
 
 #endif /* YFDemosPch_h */
