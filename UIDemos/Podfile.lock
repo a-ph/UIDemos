@@ -1,0 +1,24 @@
+PODS:
+  - FBRetainCycleDetector (0.1.4)
+  - FLEX (3.0.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FBRetainCycleDetector
+  - FLEX
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - FBRetainCycleDetector
+    - FLEX
+    - Masonry
+
+SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FLEX: d66c759bce0f6ebbbf472c742380874d846f2883
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 521220dfe6dfed95ff0a20281ef4f55acfb79de1
+
+COCOAPODS: 1.9.3
