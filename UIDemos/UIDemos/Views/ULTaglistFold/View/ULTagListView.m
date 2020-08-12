@@ -92,7 +92,7 @@ CGFloat const ULTagListViewFoldButtonWidth = 28;
     BOOL hiddenFoldButton = [self isHiddenFoldButton];
     if (hiddenFoldButton) {
         [self noShowFoldButton];
-        ULLogInfo(@"不处理折叠状态，直接隐藏折叠按钮返回");
+        
         return;
     }
     

@@ -10,6 +10,7 @@
 
 @interface AppDelegate ()
 //teste 2
+//2222
 
 @end
 
@@ -18,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
     return YES;
 }
 
